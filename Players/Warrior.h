@@ -2,6 +2,7 @@
 #define EX4_WARRIOR_H
 
 #include "Player.h"
+#include "../utilities.h"
 
 class Warrior : Player {
 public:

@@ -2,6 +2,7 @@
 #define EX4_HEALER_H
 
 #include "Player.h"
+#include "../utilities.h"
 
 class Healer : Player {
 public:

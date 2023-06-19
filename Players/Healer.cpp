@@ -22,7 +22,8 @@ std::ostream& operator<<(std::ostream& os, const Healer& healer){
 
 /* Prints the Healer info*/
 std::ostream& Healer::printInfo(std::ostream& os) const{
-    return os << this->getName() << " " << "Healer";
+    printPlayerDetails(os, this->getName(),"Healer", this->getLevel(), this->getForce(), this->getHP(), this->getCoins());
+    return os;
 }
 
 /* Increase the Healer HP by given ammount (up to the maximum allowed HP - maxHP)

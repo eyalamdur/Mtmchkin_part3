@@ -64,5 +64,4 @@ class DeckFileInvalidSize : Exception{
         Exception m_exception;
 };
 
-
 #endif //EX4_EXCEPTION_H

@@ -22,7 +22,8 @@ std::ostream& operator<<(std::ostream& os, const Ninja& ninja){
 
 /* Prints the Ninja info*/
 std::ostream& Ninja::printInfo(std::ostream& os) const{
-    return os << this->getName() << " " << "Ninja";
+    printPlayerDetails(os, this->getName(),"Ninja", this->getLevel(), this->getForce(), this->getHP(), this->getCoins());
+    return os;
 }
 
 /* Increase the Ninja coins by given ammount.

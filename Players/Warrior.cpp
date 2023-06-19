@@ -22,7 +22,8 @@ std::ostream& operator<<(std::ostream& os, const Warrior& warrior){
 
 /* Prints the Warrior info*/
 std::ostream& Warrior::printInfo(std::ostream& os) const{
-    return os << this->getName() << " " << "Warrior";
+    printPlayerDetails(os, this->getName(),"Warrior", this->getLevel(), this->getForce(), this->getHP(), this->getCoins());
+    return os;
 }
 
 /* Calculate the Warrior attack strength (2 * force + level).
