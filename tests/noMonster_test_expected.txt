@@ -1,0 +1,1196 @@
+Welcome to the world of MtmChkin!!!
+Please enter team size: (2-6)
+Please insert the player name and class: 
+Please insert the player name and class: 
+
+-------------------------------------------
+Start of round 1:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   10    Healer  
+2          Pikachu         1         5     90    10    Ninja  
+
+-------------------------------------------
+Start of round 2:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    10    Healer  
+2          Pikachu         1         5     90    30    Ninja  
+
+-------------------------------------------
+Start of round 3:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   10    Healer  
+2          Pikachu         1         5     90    30    Ninja  
+
+-------------------------------------------
+Start of round 4:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    10    Healer  
+2          Pikachu         1         5     90    30    Ninja  
+
+-------------------------------------------
+Start of round 5:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    20    Healer  
+2          Pikachu         1         5     90    30    Ninja  
+
+-------------------------------------------
+Start of round 6:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   20    Healer  
+2          Pikachu         1         5     80    30    Ninja  
+
+-------------------------------------------
+Start of round 7:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    20    Healer  
+2          Pikachu         1         5     80    50    Ninja  
+
+-------------------------------------------
+Start of round 8:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   20    Healer  
+2          Pikachu         1         5     80    50    Ninja  
+
+-------------------------------------------
+Start of round 9:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    20    Healer  
+2          Pikachu         1         5     80    50    Ninja  
+
+-------------------------------------------
+Start of round 10:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    30    Healer  
+2          Pikachu         1         5     80    50    Ninja  
+
+-------------------------------------------
+Start of round 11:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   30    Healer  
+2          Pikachu         1         5     70    50    Ninja  
+
+-------------------------------------------
+Start of round 12:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    30    Healer  
+2          Pikachu         1         5     70    70    Ninja  
+
+-------------------------------------------
+Start of round 13:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   30    Healer  
+2          Pikachu         1         5     70    70    Ninja  
+
+-------------------------------------------
+Start of round 14:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    30    Healer  
+2          Pikachu         1         5     70    70    Ninja  
+
+-------------------------------------------
+Start of round 15:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    40    Healer  
+2          Pikachu         1         5     70    70    Ninja  
+
+-------------------------------------------
+Start of round 16:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   40    Healer  
+2          Pikachu         1         5     60    70    Ninja  
+
+-------------------------------------------
+Start of round 17:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    40    Healer  
+2          Pikachu         1         5     60    90    Ninja  
+
+-------------------------------------------
+Start of round 18:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   40    Healer  
+2          Pikachu         1         5     60    90    Ninja  
+
+-------------------------------------------
+Start of round 19:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    40    Healer  
+2          Pikachu         1         5     60    90    Ninja  
+
+-------------------------------------------
+Start of round 20:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    50    Healer  
+2          Pikachu         1         5     60    90    Ninja  
+
+-------------------------------------------
+Start of round 21:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   50    Healer  
+2          Pikachu         1         5     50    90    Ninja  
+
+-------------------------------------------
+Start of round 22:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    50    Healer  
+2          Pikachu         1         5     50    110   Ninja  
+
+-------------------------------------------
+Start of round 23:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   50    Healer  
+2          Pikachu         1         5     50    110   Ninja  
+
+-------------------------------------------
+Start of round 24:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    50    Healer  
+2          Pikachu         1         5     50    110   Ninja  
+
+-------------------------------------------
+Start of round 25:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    60    Healer  
+2          Pikachu         1         5     50    110   Ninja  
+
+-------------------------------------------
+Start of round 26:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   60    Healer  
+2          Pikachu         1         5     40    110   Ninja  
+
+-------------------------------------------
+Start of round 27:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    60    Healer  
+2          Pikachu         1         5     40    130   Ninja  
+
+-------------------------------------------
+Start of round 28:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   60    Healer  
+2          Pikachu         1         5     40    130   Ninja  
+
+-------------------------------------------
+Start of round 29:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    60    Healer  
+2          Pikachu         1         5     40    130   Ninja  
+
+-------------------------------------------
+Start of round 30:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    70    Healer  
+2          Pikachu         1         5     40    130   Ninja  
+
+-------------------------------------------
+Start of round 31:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   70    Healer  
+2          Pikachu         1         5     30    130   Ninja  
+
+-------------------------------------------
+Start of round 32:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    70    Healer  
+2          Pikachu         1         5     30    150   Ninja  
+
+-------------------------------------------
+Start of round 33:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   70    Healer  
+2          Pikachu         1         5     30    150   Ninja  
+
+-------------------------------------------
+Start of round 34:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    70    Healer  
+2          Pikachu         1         5     30    150   Ninja  
+
+-------------------------------------------
+Start of round 35:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    80    Healer  
+2          Pikachu         1         5     30    150   Ninja  
+
+-------------------------------------------
+Start of round 36:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   80    Healer  
+2          Pikachu         1         5     20    150   Ninja  
+
+-------------------------------------------
+Start of round 37:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    80    Healer  
+2          Pikachu         1         5     20    170   Ninja  
+
+-------------------------------------------
+Start of round 38:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   80    Healer  
+2          Pikachu         1         5     20    170   Ninja  
+
+-------------------------------------------
+Start of round 39:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    80    Healer  
+2          Pikachu         1         5     20    170   Ninja  
+
+-------------------------------------------
+Start of round 40:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    90    Healer  
+2          Pikachu         1         5     20    170   Ninja  
+
+-------------------------------------------
+Start of round 41:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   90    Healer  
+2          Pikachu         1         5     10    170   Ninja  
+
+-------------------------------------------
+Start of round 42:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+Start of Pikachu's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    90    Healer  
+2          Pikachu         1         5     10    190   Ninja  
+
+-------------------------------------------
+Start of round 43:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   90    Healer  
+2          Pikachu         1         5     10    190   Ninja  
+
+-------------------------------------------
+Start of round 44:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+Start of Pikachu's turn: 
+You saw the trap coming from miles away, you dodged it gracefully.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    90    Healer  
+2          Pikachu         1         5     10    190   Ninja  
+
+-------------------------------------------
+Start of round 45:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+Start of Pikachu's turn: 
+Nothing happened.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    100   Healer  
+2          Pikachu         1         5     10    190   Ninja  
+
+-------------------------------------------
+Start of round 46:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+Start of Pikachu's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   100   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 47:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    100   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 48:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    110   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 49:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   110   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 50:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   110   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 51:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    110   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 52:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    110   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 53:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    120   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 54:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   120   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 55:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   120   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 56:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    120   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 57:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    120   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 58:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    130   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 59:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   130   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 60:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   130   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 61:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    130   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 62:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    130   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 63:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    140   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 64:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   140   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 65:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   140   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 66:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    140   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 67:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    140   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 68:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    150   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 69:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   150   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 70:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   150   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 71:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    150   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 72:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    150   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 73:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    160   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 74:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   160   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 75:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   160   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 76:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    160   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 77:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    160   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 78:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    170   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 79:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   170   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 80:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   170   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 81:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    170   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 82:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    170   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 83:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    180   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 84:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   180   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 85:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   180   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 86:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    180   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 87:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    180   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 88:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    190   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 89:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   190   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 90:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   190   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 91:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    190   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 92:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    190   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 93:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    200   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 94:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   200   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 95:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   200   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 96:
+
+Start of Itay's turn: 
+This is but a flesh wound. You've lost 10 health points
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     90    200   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 97:
+
+Start of Itay's turn: 
+You fell into the trap, lose 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    200   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 98:
+
+Start of Itay's turn: 
+You've stumbled into a pile of coins! you've gained 10 gold.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     80    210   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 99:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   210   Healer  
+2          Pikachu         1         5     0     190   Ninja  
+
+-------------------------------------------
+Start of round 100:
+
+Start of Itay's turn: 
+Healers know how to use mana, you've gained 10 health points.
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          Itay            1         5     100   210   Healer  
+2          Pikachu         1         5     0     190   Ninja  

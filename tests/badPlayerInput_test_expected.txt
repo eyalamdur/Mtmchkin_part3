@@ -1,0 +1,90 @@
+Welcome to the world of MtmChkin!!!
+Please enter team size: (2-6)
+Please insert the player name and class: 
+You have entered an invalid class. Please try again.
+You have entered an invalid class. Please try again.
+Please insert the player name and class: 
+
+-------------------------------------------
+Start of round 1:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Witch and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       2         5     100   12    Healer  
+2          rocky           2         5     100   12    Warrior  
+
+-------------------------------------------
+Start of round 2:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       3         5     100   14    Healer  
+2          rocky           3         5     100   14    Warrior  
+
+-------------------------------------------
+Start of round 3:
+
+Start of matamDalf's turn: 
+Player matamDalf has been defeated by a Dragon.
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          rocky           4         5     100   16    Warrior  
+2          matamDalf       3         5     0     14    Healer  
+
+-------------------------------------------
+Start of round 4:
+
+Start of rocky's turn: 
+Player rocky has defeated Witch and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          rocky           5         5     100   18    Warrior  
+2          matamDalf       3         5     0     14    Healer  
+
+-------------------------------------------
+Start of round 5:
+
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          rocky           6         5     100   20    Warrior  
+2          matamDalf       3         5     0     14    Healer  
+
+-------------------------------------------
+Start of round 6:
+
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          rocky           7         5     100   22    Warrior  
+2          matamDalf       3         5     0     14    Healer  
+
+-------------------------------------------
+Start of round 7:
+
+Start of rocky's turn: 
+Player rocky has been defeated by a Dragon.
+The Game has ended!!!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          rocky           7         5     0     22    Warrior  
+2          matamDalf       3         5     0     14    Healer  

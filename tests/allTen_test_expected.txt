@@ -1,0 +1,122 @@
+Welcome to the world of MtmChkin!!!
+Please enter team size: (2-6)
+Please insert the player name and class: 
+Please insert the player name and class: 
+
+-------------------------------------------
+Start of round 1:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       2         5     100   12    Healer  
+2          rocky           2         5     100   12    Warrior  
+
+-------------------------------------------
+Start of round 2:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       3         5     100   14    Healer  
+2          rocky           3         5     100   14    Warrior  
+
+-------------------------------------------
+Start of round 3:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       4         5     100   16    Healer  
+2          rocky           4         5     100   16    Warrior  
+
+-------------------------------------------
+Start of round 4:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       5         5     100   18    Healer  
+2          rocky           5         5     100   18    Warrior  
+
+-------------------------------------------
+Start of round 5:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       6         5     100   20    Healer  
+2          rocky           6         5     100   20    Warrior  
+
+-------------------------------------------
+Start of round 6:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       7         5     100   22    Healer  
+2          rocky           7         5     100   22    Warrior  
+
+-------------------------------------------
+Start of round 7:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       8         5     100   24    Healer  
+2          rocky           8         5     100   24    Warrior  
+
+-------------------------------------------
+Start of round 8:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       9         5     100   26    Healer  
+2          rocky           9         5     100   26    Warrior  
+
+-------------------------------------------
+Start of round 9:
+
+Start of matamDalf's turn: 
+Player matamDalf has defeated Gremlin and rose 1 Level!
+Start of rocky's turn: 
+Player rocky has defeated Gremlin and rose 1 Level!
+The Game has ended!!!
+
+The current ranking of the Team:
+Ranking    Player Name     Level     Force HP    Coins Job
+1          matamDalf       10        5     100   28    Healer  
+2          rocky           10        5     100   28    Warrior  
