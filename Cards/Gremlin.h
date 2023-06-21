@@ -3,23 +3,13 @@
 
 #include "BattleCard.h"
 
-const std::string GREMLIN = "Gremlin";
-const int GREMLIN_DEFAULT_LOOT = 2;
-const int GREMLIN_DEFAULT_FORCE = 5;
-const int GREMLIN_DEFAULT_HPLOSS = 10;
-
-class Gremlin : BattleCard {
+class Gremlin : public BattleCard {
 public:
     /* C'tor of Gremlin class
      * @param type - The type of the Gremlin.
      * @param stats - The numeral stats of the Gremlin.
      * @return A new instance of Gremlin.*/
     Gremlin();
-
-    /* Handling the player's applyEncounter with the Gremlin:
-     * @param player - The player.
-     * @return void */
-    void applyEncounter(Player& player) const override;
 
     /* Prints the Gremlin info:*/
     friend std::ostream& operator<<(std::ostream& os, const Gremlin& gremlin);
@@ -29,6 +19,9 @@ public:
     Gremlin(const Gremlin&) = default;
     ~Gremlin() = default;
     Gremlin& operator=(const Gremlin& other) = default;
+
+    const int GREMLIN_LOOT = 2;
+    const int GREMLIN_HPLOSS = 10;
 };
 
 

@@ -4,7 +4,7 @@
 #include "Player.h"
 #include "../utilities.h"
 
-class Warrior : Player {
+class Warrior : public Player {
 public:
     /* C'tor of Warrior class - 1 param.
      * @param name - The name of the Warrior.

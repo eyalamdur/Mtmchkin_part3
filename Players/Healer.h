@@ -4,7 +4,7 @@
 #include "Player.h"
 #include "../utilities.h"
 
-class Healer : Player {
+class Healer : public Player {
 public:
     /* C'tor of Healer class - 1 param.
      * @param name - The name of the Healer.

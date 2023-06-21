@@ -1,5 +1,30 @@
 #include "BattleCard.h"
 
+/* Handling the player's applyEncounter with the Gremlin:
+ * @param player - The player.
+ * @return void */
+void BattleCard::applyEncounter(Player& player) const{
+    // Find which monster we battle
+    std::string monster = "Dragon";
+    if (this->getForce() == 7) {
+        monster = "Gremlin";
+    }
+    else if (this->getForce() == 11){
+        monster = "Witch";
+    }
+
+    // Fight monster
+    if (this->getForce() <= player.getAttackStrength()){
+        player.levelUp();
+        player.addCoins(this->getLoot());
+        printWinBattle(player.getName(), monster);
+        return;
+    }
+    player.damage(this->getHPLossOnDefeat());
+    printLossBattle(player.getName(), monster);
+    return;
+}
+
 /* Sets the loot of the Battle card in case of win. 
  * @param int - loot of the Battle card. */
 void BattleCard::setLoot(int loot){

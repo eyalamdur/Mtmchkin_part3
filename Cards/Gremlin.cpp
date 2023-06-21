@@ -5,24 +5,9 @@
  * @param stats - The numeral stats of the Gremlin.
  * @return A new instance of Gremlin.*/
 Gremlin::Gremlin(){
-    this->setForce(GREMLIN_DEFAULT_FORCE);
-    this->setLoot(GREMLIN_DEFAULT_LOOT);
-    this->setHPLossOnDefeat(GREMLIN_DEFAULT_HPLOSS);
-}
-
-/* Handling the player's applyEncounter with the Gremlin:
- * @param player - The player.
- * @return void */
-void Gremlin::applyEncounter(Player& player) const{
-    if (this->getForce() <= player.getAttackStrength()){
-        player.levelUp();
-        player.addCoins(this->getLoot());
-        printWinBattle(player.getName(), GREMLIN);
-        return;
-    }
-    player.damage(this->getHPLossOnDefeat());
-    printLossBattle(player.getName(), GREMLIN);
-    return;
+    this->setForce(GREMLIN_FORCE);
+    this->setLoot(BattleCard::GREMLIN_FORCE);
+    this->setHPLossOnDefeat(GREMLIN_HPLOSS);
 }
 
 std::ostream& operator<<(std::ostream& os, const Gremlin& gremlin){
@@ -31,7 +16,7 @@ std::ostream& operator<<(std::ostream& os, const Gremlin& gremlin){
 
 /* Prints the Gremlin info*/
 std::ostream& Gremlin::printInfo(std::ostream& os) const{
-    printCardDetails(os, GREMLIN);
+    printCardDetails(os, "Gremlin");
     printMonsterDetails(os, this->getForce(), this->getHPLossOnDefeat(), this->getLoot(), false);
     printEndOfCardDetails(os);
     return os;

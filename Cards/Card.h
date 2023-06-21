@@ -2,6 +2,9 @@
 #define EX4_CARD_H
 
 #include "../Players/Player.h"
+#include "../Players/Ninja.h"
+#include "../Players/Warrior.h"
+#include "../Players/Healer.h"
 #include "../utilities.h"
 
 /*  CardType:
@@ -35,7 +38,7 @@ public:
 
     /* Here we are explicitly telling the compiler to use the default methods */
     Card(const Card&) = default;
-    ~Card() = default;
+    virtual ~Card() = default;
     Card& operator=(const Card& other) = default;
 
 };

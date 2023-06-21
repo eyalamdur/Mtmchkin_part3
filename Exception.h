@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string.h>
 
-class Exception : std::exception {
+class Exception : public std::exception {
 public:
     /* C'tor of Exception class.
      * @return a new instance of Exception. */
@@ -28,40 +28,49 @@ private:
     std::exception m_type;
 };
 
-class DeckFileNotFound : Exception{
+class DeckFileNotFound : public Exception{
+public:
     /* C'tor of DeckFileNotFound class.
      * @return a new instance of DeckFileNotFound. */
-    DeckFileNotFound();
+    DeckFileNotFound() = default;
 
     /* D'tor of DeckFileNotFound class. */
     ~DeckFileNotFound() = default;
-
-    private:
-        Exception m_exception;
 };
 
-class DeckFileFormatError : Exception{
+class DeckFileFormatError : public Exception{
+public:
     /* C'tor of DeckFileFormatError class.
      * @return a new instance of DeckFileFormatError. */
-    DeckFileFormatError(int line);
+    DeckFileFormatError(int line) : m_line(line){};
 
     /* D'tor of DeckFileFormatError class. */
     ~DeckFileFormatError() = default;
 
     private:
-        Exception m_exception;
+        int m_line;
 };
 
-class DeckFileInvalidSize : Exception{
+class DeckFileInvalidSize : public Exception{
+public:
     /* C'tor of DeckFileInvalidSize class.
      * @return a new instance of DeckFileInvalidSize. */
-    DeckFileInvalidSize();
+    DeckFileInvalidSize() = default;
 
     /* D'tor of DeckFileInvalidSize class. */
     ~DeckFileInvalidSize() = default;
 
-    private:
-        Exception m_exception;
+};
+
+class CardNotFound : public Exception{
+public:
+    /* C'tor of CardNotFound class.
+     * @return a new instance of CardNotFound. */
+    CardNotFound() = default;
+
+    /* D'tor of CardNotFound class. */
+    ~CardNotFound() = default;
+
 };
 
 #endif //EX4_EXCEPTION_H

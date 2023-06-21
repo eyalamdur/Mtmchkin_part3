@@ -4,7 +4,9 @@
 #include "Player.h"
 #include "../utilities.h"
 
-class Ninja : Player {
+const std::string NINJA = "Ninja";
+
+class Ninja : public Player {
 public:
     /* C'tor of Ninja class - 1 param.
      * @param name - The name of the Ninja.

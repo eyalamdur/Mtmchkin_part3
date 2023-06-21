@@ -3,7 +3,7 @@
 
 #include "Card.h"
 
-class BattleCard : Card {
+class BattleCard : public Card {
 public:
     /* C'tor of BattleCard class
      * @param type - The type of the BattleCard.
@@ -14,7 +14,7 @@ public:
     /* Handling the player's applyEncounter with the BattleCard:
      * @param player - The player.
      * @return void */
-    virtual void applyEncounter(Player& player) const = 0;
+    void applyEncounter(Player& player) const;
 
     /* Prints the BattleCard info:*/
     virtual std::ostream& printInfo(std::ostream& os) const = 0;
@@ -44,6 +44,9 @@ public:
 
     /* @return the hp loss of the Battle card. */
     int getHPLossOnDefeat() const;
+
+    const int GREMLIN_FORCE = 7;
+    const int WITCH_FORCE = 11;
 
     private:
         int m_force;  // The force of the monster
