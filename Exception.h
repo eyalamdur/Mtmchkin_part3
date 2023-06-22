@@ -73,4 +73,15 @@ public:
 
 };
 
+class PlayerCreationFailure : public Exception{
+public:
+    /* C'tor of PlayerCreationFailure class.
+     * @return a new instance of PlayerCreationFailure. */
+    PlayerCreationFailure() = default;
+
+    /* D'tor of PlayerCreationFailure class. */
+    ~PlayerCreationFailure() = default;
+
+};
+
 #endif //EX4_EXCEPTION_H

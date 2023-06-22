@@ -6,7 +6,7 @@
  * @return A new instance of Witch.*/
 Witch::Witch(){
     this->setForce(WITCH_FORCE);
-    this->setLoot(BattleCard::WITCH_FORCE);
+    this->setLoot(WITCH_LOOT);
     this->setHPLossOnDefeat(WITCH_HPLOSS);
 }
 

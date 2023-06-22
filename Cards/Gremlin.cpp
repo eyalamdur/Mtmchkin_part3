@@ -6,7 +6,7 @@
  * @return A new instance of Gremlin.*/
 Gremlin::Gremlin(){
     this->setForce(GREMLIN_FORCE);
-    this->setLoot(BattleCard::GREMLIN_FORCE);
+    this->setLoot(GREMLIN_LOOT);
     this->setHPLossOnDefeat(GREMLIN_HPLOSS);
 }
 

@@ -92,12 +92,9 @@ void Player::levelUp(){
 /* Raise the player force by given ammount
  * If invalid variable is given nothing changes. */
 void  Player::buff(int forcePoints){
-    // Exception check
-    if (forcePoints < MINIMUM_VALUE){
-        throw ("Focuk");
+    if (this->m_force += forcePoints >= 0){
+        this->m_force += forcePoints;
     }
-
-    this->m_force += forcePoints;
     return;
 }
 

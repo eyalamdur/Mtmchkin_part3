@@ -45,7 +45,7 @@ public:
     /* @return the hp loss of the Battle card. */
     int getHPLossOnDefeat() const;
 
-    const int GREMLIN_FORCE = 7;
+    const int GREMLIN_FORCE = 5;
     const int WITCH_FORCE = 11;
 
     private:

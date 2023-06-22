@@ -2,6 +2,7 @@
 #define MTMCHKIN_H_
 
 #include <iostream>
+#include <limits>
 #include <map>
 #include <vector>
 #include <memory>
@@ -26,7 +27,6 @@ using namespace std;
 class Mtmchkin{
 
 public:
-    
     /* C'tor of Mtmchkin class
      * @param filename - a file which contains the cards of the deck.
      * @return  A new instance of Mtmchkin. */
@@ -83,30 +83,36 @@ protected:
      * @return void*/
     void createPlayersVector();
 
-    
     /* Team size validator  
-    * @return the team size*/
+    * @return the team size */
     int checkValidTeamSize();
 
     /* Players name validator  
      * @param playerName - player's name.
-     * @return true if the name is valid and false if not*/
+     * @return true if the name is valid and false if not */
     bool checkValidName(string &playerName);
 
     /* Players job validator  
      * @param playerJob - player's job.
-     * @return true if the job is valid and false if not*/
+     * @return true if the job is valid and false if not */
     bool checkValidJob(string &playerJob);
     
+    /* Player factory
+     * @param playerName - the Player's Name.
+     * @param playerType - the Player's type.
+     * @return  A new instance of shared_ptr<Name>. */
+    shared_ptr<Player> createPlayer(const std::string &playerName, const std::string &playerType);
 
     /* Player Map Creator
      * @return A new instance of map that connects Player type and its constructor */
-    map<string, function<unique_ptr<Player>()>> createPlayerMap();
+    map<string, function<shared_ptr<Player>(const string)>> createPlayerMap();
 
 private:
     vector<unique_ptr<Card>> m_deck;
     vector<shared_ptr<Player>> m_players;
-    shared_ptr<Player> m_currentPlayer;
+    vector<shared_ptr<Player>> m_rankingWinners;
+    vector<shared_ptr<Player>> m_rankingLossers;
+    int m_roundsPlayed;
 };
 
 

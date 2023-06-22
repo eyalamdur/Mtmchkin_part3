@@ -29,5 +29,9 @@ int main(){
     witch.applyEncounter(p2);
     dragon.applyEncounter(p3);
     Mtmchkin game("deck.txt");
+    while(!game.isGameOver()){
+        game.playRound();
+    }
+    game.printLeaderBoard();
     return 0;
 }

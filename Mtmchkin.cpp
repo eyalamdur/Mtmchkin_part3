@@ -4,17 +4,38 @@
  * @param filename - a file which contains the cards of the deck.
  * @return  A new instance of Mtmchkin. */
 Mtmchkin::Mtmchkin(const string &fileName){
-    createDeck(fileName);
-    createPlayersVector();
-    return;
+    // Build Mtmchkin object
+    try{
+        printStartGameMessage();
+        createDeck(fileName);
+        createPlayersVector();
+        this->m_roundsPlayed = 0;
+    }
+    
+    // If failed throw appropriate error message
+    catch (DeckFileFormatError &e){
+        throw(e);
+    }
+    catch (DeckFileNotFound &e){
+        throw(e);
+    }
+    catch (DeckFileInvalidSize &e){
+        throw(e);
+    }
+    catch (...){
+        return;
+    }
 }
 
 /* Deck Creator
  * @param filename - a file which contains the cards of the deck.
  * @return void*/
 void Mtmchkin::createDeck(const string &fileName){
-    // Open File
+    // Open File and check validation
     ifstream cards(fileName);
+    if (cards.fail()){
+        throw(DeckFileNotFound());
+    }
     string cardName;
     int currentLine = 0;
 
@@ -28,10 +49,14 @@ void Mtmchkin::createDeck(const string &fileName){
                 this->m_deck.push_back(move(newCard));
                 currentLine++;
             }
-            catch(CardNotFound()){
+            catch(CardNotFound &e){
                 throw(DeckFileFormatError(currentLine));
             }
         }
+    }
+    // Invalid size of deck
+    if (currentLine < 5){
+        throw(DeckFileInvalidSize());
     }
 }
 
@@ -56,14 +81,14 @@ unique_ptr<Card> Mtmchkin::createCard(const std::string &cardType){
 * @return A new instance of map that connects card name and its constructor */
 map<string, function<unique_ptr<Card>()>> Mtmchkin::createCardMap(){
     map<string, function<unique_ptr<Card>()>> cardTypeMap;
-    cardTypeMap["Barfight\r"] = []() {return unique_ptr<Card> (new Barfight);};
-    cardTypeMap["Mana\r"] = []() {return unique_ptr<Card> (new Mana);};
-    cardTypeMap["Well\r"] = []() {return unique_ptr<Card> (new Well);};
-    cardTypeMap["Treasure\r"] = []() {return unique_ptr<Card> (new Treasure);};
-    cardTypeMap["Merchant\r"] = []() {return unique_ptr<Card> (new Merchant);};
-    cardTypeMap["Dragon\r"] = []() {return unique_ptr<Card> (new Dragon);};
-    cardTypeMap["Witch\r"] = []() {return unique_ptr<Card> (new Witch);};
-    cardTypeMap["Gremlin\r"] = []() {return unique_ptr<Card> (new Gremlin);};
+    cardTypeMap["Barfight"] = []() {return move(unique_ptr<Card> (new Barfight));};
+    cardTypeMap["Mana"] = []() {return move(unique_ptr<Card> (new Mana));};
+    cardTypeMap["Well"] = []() {return move(unique_ptr<Card> (new Well));};
+    cardTypeMap["Treasure"] = []() {return move(unique_ptr<Card> (new Treasure));};
+    cardTypeMap["Merchant"] = []() {return move(unique_ptr<Card> (new Merchant));};
+    cardTypeMap["Dragon"] = []() {return move(unique_ptr<Card> (new Dragon));};
+    cardTypeMap["Witch"] = []() {return move(unique_ptr<Card> (new Witch));};
+    cardTypeMap["Gremlin"] = []() {return move(unique_ptr<Card> (new Gremlin));};
     return cardTypeMap;
 }
 
@@ -75,18 +100,17 @@ void Mtmchkin::createPlayersVector(){
     int teamSize = checkValidTeamSize();
 
     // Players input untill all valid
-    string playerNameAndJob, name, job;
+    string playerNameAndType, name, type;
     while (teamSize != 0){
         printInsertPlayerMessage();
-        getline(cin,playerNameAndJob);
-        istringstream line(playerNameAndJob);
+        getline(cin,playerNameAndType);
+        istringstream line(playerNameAndType);
         line >> name;
         if(checkValidName(name)){
-            line >> job;
-            if(checkValidJob(job)){
-                cout << "Valid Player" << endl;
+            line >> type;
+            if(checkValidJob(type)){
+                this->m_players.push_back(createPlayer(name, type));
                 teamSize--;
-                //createPlayer();
                 continue;
             }
             printInvalidClass();
@@ -101,11 +125,18 @@ void Mtmchkin::createPlayersVector(){
 int Mtmchkin::checkValidTeamSize(){
     int teamSize = 0;
     while (teamSize < 2 || teamSize > 6){
+        // Enter team size message and get input
         printEnterTeamSizeMessage();
         cin >> teamSize;
+
+        // If team size not valid print invalid team size message and get input again
         if (teamSize < 2 || teamSize > 6){
             printInvalidTeamSize();
         }
+        
+        // Input channel clear;
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
     return teamSize;
 }
@@ -142,36 +173,104 @@ bool Mtmchkin::checkValidJob(string &playerJob){
     return false;
 }
 
+/* Player factory
+ * @param playerName - the Player's Name.
+ * @param playerType - the Player's type.
+ * @return  A new instance of shared_ptr<Name>. */
+shared_ptr<Player> Mtmchkin::createPlayer(const std::string &playerName, const std::string &playerType){
+    // Create map that connects player name and its constructor
+    map<string, function<shared_ptr<Player>(const string)>> playerTypeMap = createPlayerMap();
+
+    // Call given player type constructor
+    map<string, function<shared_ptr<Player>(const string)>>::iterator currentype = playerTypeMap.find(playerType);
+    if (currentype != playerTypeMap.end()){
+        shared_ptr<Player> newPlayer = (currentype->second)(playerName);
+        return newPlayer;
+    }
+
+    throw(PlayerCreationFailure());
+}
+
 /* Player Map Creator
 * @return A new instance of map that connects Player type and its constructor */
-map<string, function<unique_ptr<Player>()>> Mtmchkin::createPlayerMap(){
-    map<string, function<unique_ptr<Player>()>> playerTypeMap;
-    //playerTypeMap["Ninja"] = []() {return unique_ptr<Player> (new Ninja);};
-    //playerTypeMap["Warrior"] = []() {return unique_ptr<Player> (new Warrior);};
-    //playerTypeMap["Healer"] = []() {return unique_ptr<Player> (new Healer);};
+map<string, function<shared_ptr<Player>(const string)>> Mtmchkin::createPlayerMap(){
+    map<string, function<shared_ptr<Player>(const string)>> playerTypeMap;
+    playerTypeMap["Ninja"] = [](const string &playerName) {return make_shared<Ninja>(playerName);};
+    playerTypeMap["Warrior"] = [](const string &playerName) {return make_shared<Warrior>(playerName);};
+    playerTypeMap["Healer"] = [](const string &playerName) {return make_shared<Healer>(playerName);};
     return playerTypeMap;
 }
 
 /* Play the next Round of the game - according to the instruction in the exercise document.
  * @return void */
 void Mtmchkin::playRound(){
+    static int currentCard = 0;
+    printRoundStartMessage(getNumberOfRounds() + 1);
+    // Draw card for each player which still playing
+    for (shared_ptr<Player> currentPlayer : this->m_players){
+        // If player is playing
+        if (!(currentPlayer.get()->isKnockedOut() || currentPlayer.get()->getLevel() == 10)){
+            printTurnStartMessage(currentPlayer.get()->getName());
+            this->m_deck.at(currentCard++).get()->applyEncounter(*currentPlayer.get());
+            // Check if player died
+            if (currentPlayer.get()->isKnockedOut()){
+                this->m_rankingLossers.insert(this->m_rankingLossers.begin() ,currentPlayer);
+            }
+            // Check if player reach level 10
+            if (currentPlayer.get()->getLevel() == 10){
+                this->m_rankingWinners.push_back(currentPlayer);
+            }
+            // If got to last card restart deck
+            if (currentCard == static_cast<int>(this->m_deck.size())){
+                currentCard = 0;
+            }
+        }
+    }
+    // If game over
+    if (this->isGameOver()){
+        printGameEndMessage();
+        return;
+    }
+    this->m_roundsPlayed++;
     return;
 }
     
 /* Prints the leaderBoard of the game at a given stage of the game - according to the instruction in the exercise document.
 * @return void */
 void Mtmchkin::printLeaderBoard() const{
+    int rank = 1;
+    printLeaderBoardStartMessage();
+    if (this->isGameOver()){
+        for (shared_ptr<Player> currentPlayer : this->m_rankingWinners){
+            cout << rank++ << "          " << *currentPlayer.get() << endl;
+        }
+        for (shared_ptr<Player> currentPlayer : this->m_rankingLossers){
+            cout << rank++ << "          " << *currentPlayer.get() << endl;
+        }
+    }
+    else{
+        for (shared_ptr<Player> currentPlayer : this->m_players){
+            cout << rank++ << "          " << *currentPlayer.get() << endl;
+        }
+    }
     return;
 }
     
 /* Checks if the game ended:
 * @return True if the game ended, False otherwise */
 bool Mtmchkin::isGameOver() const{
+    for (shared_ptr<Player> currentPlayer : this->m_players){
+        // If player is playing
+        if (!(currentPlayer.get()->isKnockedOut() || currentPlayer.get()->getLevel() == 10)){
+            return false;
+        }
+    }
+
     return true;
 }
     
 /* Returns the number of rounds played.
 * @return int - number of rounds played */
 int  Mtmchkin::getNumberOfRounds() const{
-    return 1;
+    return this->m_roundsPlayed;
 }

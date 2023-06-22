@@ -6,7 +6,7 @@
 void BattleCard::applyEncounter(Player& player) const{
     // Find which monster we battle
     std::string monster = "Dragon";
-    if (this->getForce() == 7) {
+    if (this->getForce() == 5) {
         monster = "Gremlin";
     }
     else if (this->getForce() == 11){
@@ -21,6 +21,9 @@ void BattleCard::applyEncounter(Player& player) const{
         return;
     }
     player.damage(this->getHPLossOnDefeat());
+    if(monster == "Witch"){
+        player.buff(-1);
+    }
     printLossBattle(player.getName(), monster);
     return;
 }
