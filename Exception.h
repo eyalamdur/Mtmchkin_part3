@@ -4,12 +4,13 @@
 #include <iostream>
 #include <string.h>
 
-class Exception : public std::exception {
+using namespace std;
+
+class Exception : public exception {
 public:
     /* C'tor of Exception class.
      * @return a new instance of Exception. */
     Exception() = default;
-    Exception(std::string message);
 
     /* D'tor of Exception class. */
     ~Exception() = default;
@@ -24,8 +25,6 @@ public:
      * @return a new instance of Exception with copied values as the given Exception. */
     Exception& operator=(const Exception& other) = default;
 
-private:
-    std::exception m_type;
 };
 
 class DeckFileNotFound : public Exception{
@@ -36,6 +35,11 @@ public:
 
     /* D'tor of DeckFileNotFound class. */
     ~DeckFileNotFound() = default;
+    
+    /* Returns string thats describes the error */
+    const char * what() const noexcept override{
+        return "Deck File Error: File not found";
+    }
 };
 
 class DeckFileFormatError : public Exception{
@@ -46,6 +50,13 @@ public:
 
     /* D'tor of DeckFileFormatError class. */
     ~DeckFileFormatError() = default;
+
+    /* Returns string thats describes the error */
+    const char * what() const noexcept override{
+        static string errorMessage;
+        errorMessage = "Deck File Error: File format error in line " + to_string(this->m_line);
+        return errorMessage.c_str();
+    }
 
     private:
         int m_line;
@@ -59,6 +70,12 @@ public:
 
     /* D'tor of DeckFileInvalidSize class. */
     ~DeckFileInvalidSize() = default;
+
+        /* Returns string thats describes the error */
+    const char * what() const noexcept override{
+        return "Deck File Error: Deck size is invalid";
+    }
+
 
 };
 

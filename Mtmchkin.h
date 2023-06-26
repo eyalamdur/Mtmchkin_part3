@@ -87,15 +87,21 @@ protected:
     * @return the team size */
     int checkValidTeamSize();
 
+    /* Players full input validator  
+     * @param playerName - player's name.
+     * @param playerType - player's type.
+     * @return true if the input is valid and false if not */
+    bool checkInput(string &playerName, string &playerType);
+
     /* Players name validator  
      * @param playerName - player's name.
      * @return true if the name is valid and false if not */
     bool checkValidName(string &playerName);
 
-    /* Players job validator  
+    /* Players type validator  
      * @param playerJob - player's job.
      * @return true if the job is valid and false if not */
-    bool checkValidJob(string &playerJob);
+    bool checkValidType(string &playerType);
     
     /* Player factory
      * @param playerName - the Player's Name.
@@ -107,11 +113,28 @@ protected:
      * @return A new instance of map that connects Player type and its constructor */
     map<string, function<shared_ptr<Player>(const string)>> createPlayerMap();
 
+    /* Checks all players status and reorganizes the players vector accourdingly */
+    void updatePlayerStatus(vector<shared_ptr<Player>> &copiedVector, shared_ptr<Player> currentPlayer);
+
+    /* Improves given player position the its appropriate place in leaderboard */
+    void improvePosition(vector<shared_ptr<Player>> &copiedVector, shared_ptr<Player> &player, int currentIndex);
+
+    /* Deproves given player position the its appropriate place in leaderboard */
+    void deprovePosition(vector<shared_ptr<Player>> &copiedVector, shared_ptr<Player> &player, int currentIndex);
+    
+    /* change given player position the its appropriate place by given currnet index and new index
+     * @param copiedVector - the copied vector refernce.
+     * @param player - the Player refernce.
+     * @param currentIndex - the Player current index.
+     * @param newIndex - the Player new index. */
+    void changePlayerPosition(vector<shared_ptr<Player>> &copiedVector, shared_ptr<Player> &player, int currentIndex, int newIndex);
+
+    /* Returns the size of the player vector*/
+    int getPlayersVectorSize();
+
 private:
     vector<unique_ptr<Card>> m_deck;
     vector<shared_ptr<Player>> m_players;
-    vector<shared_ptr<Player>> m_rankingWinners;
-    vector<shared_ptr<Player>> m_rankingLossers;
     int m_roundsPlayed;
 };
 
