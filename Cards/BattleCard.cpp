@@ -6,10 +6,10 @@
 void BattleCard::applyEncounter(Player& player) const{
     // Find which monster we battle
     std::string monster = "Dragon";
-    if (this->getForce() == 5) {
+    if (this->getForce() == GREMLIN_FORCE) {
         monster = "Gremlin";
     }
-    else if (this->getForce() == 11){
+    else if (this->getForce() == WITCH_FORCE){
         monster = "Witch";
     }
 

@@ -4,28 +4,64 @@
  * @param player - The player.
  * @return void */
 void Merchant::applyEncounter(Player& player) const{
-    char playerInput[10];
+    printMerchantInitialMessageForInteractiveEncounter(std::cout, player.getName(), player.getCoins());
+    int playerNumber;
+
     while (true){
-        std::cin.getline(playerInput, 10);
-        switch (Merchant::PlayerChoise(std::stoi(playerInput, nullptr))){
+        playerNumber = getValidInput();
+        switch (Merchant::PlayerChoise(playerNumber)){
             case Merchant::PlayerChoise::LEAVE:
+                printMerchantSummary(std::cout, player.getName(), 0, 0);
                 return;
+
             case Merchant::PlayerChoise::HEALTH_POTION:
-                if(player.pay(HEALTH_POTION_PRICE)){
-                    player.heal(ONE_POINT);
-                    break;
-                }
+                buyHealthPotion(player);
                 return;
+
             case Merchant::PlayerChoise::FORCE_BOOST:
-                if(player.pay(FORCE_BOOST_PRICE)){
-                    player.buff(ONE_POINT);
-                    break;
-                }
+                buyForceBoost(player);
                 return;
+        }
+    }
+    return;
+}
+
+/* Gets input from player until a valid one */
+int Merchant::getValidInput() const{
+    std::string playerInput;
+    while(true){
+    // Gets player input and check validation
+        std::getline(std::cin, playerInput);
+        if (playerInput.size() == 1 && std::isdigit(playerInput[0])){
+            if ((playerInput[0] - '0' <= 2) && (playerInput[0] - '0' >=0)){
+                return playerInput[0] - '0';
+            }
         }
         printInvalidInput();
     }
-    
+}
+
+/* Execute buying health potion actions */
+void Merchant::buyHealthPotion(Player& player) const{
+    if(player.pay(HEALTH_POTION_PRICE)){
+        player.heal(ONE_POINT);
+        printMerchantSummary(std::cout, player.getName(), 1, HEALTH_POTION_PRICE);
+        return;
+    }
+    printMerchantInsufficientCoins(std::cout);
+    printMerchantSummary(std::cout, player.getName(), 1, 0);
+    return;
+}
+        
+/* Execute buying force boost actions */
+void Merchant::buyForceBoost(Player& player) const{
+    if(player.pay(FORCE_BOOST_PRICE)){
+        player.buff(ONE_POINT);
+        printMerchantSummary(std::cout, player.getName(), 2, FORCE_BOOST_PRICE);
+        return;
+    }
+    printMerchantInsufficientCoins(std::cout);
+    printMerchantSummary(std::cout, player.getName(), 2, 0);
     return;
 }
 

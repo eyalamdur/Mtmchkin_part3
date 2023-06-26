@@ -2,6 +2,7 @@
 #define EX4_MERCHANT_H
 
 #include "Card.h"
+#include <limits>
 
 class Merchant : public Card {
 public:
@@ -32,6 +33,15 @@ public:
         const static int HEALTH_POTION_PRICE = 5;
         const static int FORCE_BOOST_PRICE = 10;
         const static int HEALTH_POINT = 1;
+
+        /* Gets input from player until a valid one */
+        int getValidInput() const;
+
+        /* Execute buying health potion actions */
+        void buyHealthPotion(Player& player) const;
+        
+        /* Execute buying force boost actions */
+        void buyForceBoost(Player& player) const;
 };
 
 

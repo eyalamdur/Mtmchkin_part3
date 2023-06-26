@@ -32,10 +32,10 @@ std::ostream& Healer::printInfo(std::ostream& os) const{
 void  Healer::heal(int healthPoints){
     // Exception check
     if (healthPoints < MINIMUM_VALUE){
-        throw ("Focuk");
+        return;
     }
 
-    if (healthPoints + this->getHP() < this->getMaxHP()){
+    if ((DOUBLE * healthPoints) + this->getHP() < this->getMaxHP()){
         this->setHP(this->getHP() + (DOUBLE * healthPoints));
     }
     else{

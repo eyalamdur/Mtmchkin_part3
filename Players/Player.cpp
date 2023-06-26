@@ -92,7 +92,7 @@ void Player::levelUp(){
 /* Raise the player force by given ammount
  * If invalid variable is given nothing changes. */
 void  Player::buff(int forcePoints){
-    if (this->m_force += forcePoints >= 0){
+    if (this->m_force + forcePoints >= 0){
         this->m_force += forcePoints;
     }
     return;
@@ -104,7 +104,7 @@ void  Player::buff(int forcePoints){
 void  Player::heal(int healthPoints){
     // Exception check
     if (healthPoints < MINIMUM_VALUE){
-        throw ("Focuk");
+        return;
     }
 
     if (healthPoints + this->m_hp < this->m_maxHP){
@@ -122,7 +122,7 @@ void  Player::heal(int healthPoints){
 void  Player::damage(int healthPoints){
     // Exception check
     if (healthPoints < MINIMUM_VALUE){
-        throw ("Focuk");
+        return;
     }
 
     if (this->m_hp - healthPoints >= MINIMUM_VALUE){
@@ -145,7 +145,7 @@ bool  Player::isKnockedOut(){
 void  Player::addCoins(int coins){
     // Exception check
     if (coins < MINIMUM_VALUE){
-        throw ("Focuk");
+        return;
     }
 
     this->m_coins += coins;
