@@ -9,6 +9,8 @@ int main(){
             game.printLeaderBoard();
         }
     }
-    catch(...){};
+    catch(exception &e){
+        std::cout << e.what() << std::endl;
+    };
     return 0;
 }
